@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row {
+    display: flex; 
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+.col-md-6{
+    /* display: flex; */
+    width: 100%;
+}
+.form-group input{
+    width: 500px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+.btnRegister {
+    width: 150px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 0;
+}
+a{
+    /* width: 200px; */
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.main-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.center-div{
+    width: 100%;
+    height: 70vh;
+    background-color: -webkit-linear-gradiant(left, #5DADE2, #00c6ff);
+    padding: 20px 0 0 0;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.03);
+    border-radius: 10px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: -20px;
+    margin-top: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.03);
+    border-radius: 10px;
+    margin: auto;
+    width: 90%;
+}
+th, td{
+    border: 1px solid gray;
+    padding: 8px 30px;
+    text-align: center;
+    color: gray;
+}
+th{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+}
+td{
+    font-size: 13px;
+}
+.email-style{
+    font-size: 15px;
+    color: gray;
+    background-color: cyan;
+    padding: 10px 20px;
+}
+.fa{
+    font-size: 18px;
+}
+.fa-edit{
+    color: #63c76a;
+}
+.fa-trash{
+    color: #ff0000;
+}
+
+
+
+
+</html>
+</head>
+</style>
